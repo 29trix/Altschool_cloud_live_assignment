@@ -1,7 +1,8 @@
-# formating tables in md
 
-|s/n  |descriptigon |
-
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
 |-----|------------|
 
-|1    |`one`|
