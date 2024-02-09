@@ -10,7 +10,7 @@ iii. Create the requested directories (_code, tests, personal and misc_): `mkdir
 
 ### Solution to task a-m
 
-| Tasks | Task description | Solution |
+| Task  | Task description | Solution |
 |-------|------------------|------------|
 |a      | Change to the tests directory using absolute pathname | `cd /home/altschool/tests` |
 |b      | Change to the tests directory from your home directory using relative pathname | `cd ./test` |
@@ -23,6 +23,5 @@ iii. Create the requested directories (_code, tests, personal and misc_): `mkdir
 |i      | Create a user and force the user to change his password upon login | first of create a user with `sudo adduser user1` then force user to change password with `sudo chage -d 0 user1` |
 |j      | Lock a users password | `sudo passwd -l user1` |
 |k      | Create a user with no login shell | `sudo useradd -s /sbin/nologin` |
-|l      | Disable password based authentication for ssh | `sudo vi /etc/ssh/sshd_config` insert `PasswordAuthentication no` |
+|l      | Disable password based authentication for ssh | `sudo vi /etc/ssh/sshd_config` and  insert `PasswordAuthentication no` |
 |m      | Disable root login for ssh | `sudo vi /etc/ssh/sshd_config` and set `PermitRootLogin no`   |
-|-------|----------|------|
