@@ -18,7 +18,7 @@ iii. Create the requested directories (_code, tests, personal and misc_): `mkdir
 |d      | Create an empty file named fileB and populate it with dummy contents |create empty `touch fileB` then populate `head -c /dev/urandom ./misc/fileB` |
 |e      | Copy contents of fileA into fileC               | `cp ./misc/fileA ./misc/fileC` |
 |f      | Move contents of fileB into fileD | `mv ./misc/fileB ./misc/fileD`  |
-|g      | Create a tar archive called misc.tar for the contents of the misc directory | `tar -cf misc.tar misc.tar` |
+|g      | Create a tar archive called misc.tar for the contents of the misc directory | `tar -cf misc.tar misc` |
 |h      | Compress the tar archive to create a misc.tar.gz file | `gzip misc.tar` |
 |i      | Create a user and force the user to change his password upon login | first of create a user with `sudo adduser user1` then force user to change password with `sudo chage -d 0 user1` |
 |j      | Lock a users password | `sudo passwd -l user1` |
