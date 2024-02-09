@@ -26,4 +26,5 @@ iii. Create the requested directories (_code, tests, personal and misc_): `mkdir
 |f      | Move contents of fileB into fileD | `mv ./misc/fileB ./misc/fileD`  |
 
 |g      | Create a tar archive called misc.tar for the contents of the misc directory | `tar -cf misc.tar misc.tar` |
+
 |h      | Compress the tar archive to create a misc.tar.gz file | `gzip misc.tar` |
