@@ -22,6 +22,6 @@ iii. Create the requested directories (_code, tests, personal and misc_): `mkdir
 |h      | Compress the tar archive to create a misc.tar.gz file | `gzip misc.tar` |
 |i      | Create a user and force the user to change his password upon login | first of create a user with `sudo adduser user1` then force user to change password with `sudo chage -d 0 user1` |
 |j      | Lock a users password | `sudo passwd -l user1` |
-|k      | Create a user with no login shell | `sudo useradd -s /sbin/nologin` |
+|k      | Create a user with no login shell | `sudo useradd -s /sbin/nologin user2` |
 |l      | Disable password based authentication for ssh | `sudo vi /etc/ssh/sshd_config` and  insert `PasswordAuthentication no` |
 |m      | Disable root login for ssh | `sudo vi /etc/ssh/sshd_config` and set `PermitRootLogin no`   |
