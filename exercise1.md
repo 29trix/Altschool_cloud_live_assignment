@@ -10,9 +10,9 @@ iii. Create the requested directories (_code, tests, personal and misc_): `mkdir
 
 ### Solution to task a-m
 
-| Task  | Task description | Solution |
-|-------|------------------|------------|
-|a      | Change to the tests directory using absolute pathname | `cd /home/altschool/tests` |
+| Task  | Task description | Solution | Images |
+|-------|------------------|------------|------|
+|a      | Change to the tests directory using absolute pathname | `cd /home/altschool/tests` | ![change_dir](./assets/absolute_path.png) |
 |b      | Change to the tests directory from your home directory using relative pathname | `cd ./test` |
 |c      | Use echo command to create a file named fileA with text content ‘Hello A’ in the misc directory | `echo "Hello A" > /home/altschool/misc/fileA`   |
 |d      | Create an empty file named fileB and populate it with dummy contents |create empty `touch fileB` then populate `head -c 720 /dev/urandom ./misc/fileB` |
